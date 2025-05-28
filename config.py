@@ -1,5 +1,6 @@
-PORT = 8080  # Render thường mở cổng 8080 hoặc PORT do hệ thống gán qua biến môi trường
+import os
 
+PORT = int(os.environ.get("PORT", 8080))
 # name -> secret (32 hex chars)
 USERS = {
     "tg": "e7d9f3a2b47c6e54aa12cc8890ed3a74",
