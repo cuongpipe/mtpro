@@ -12,7 +12,7 @@ MODES = {
 }
 
 # BẮT BUỘC phải khai báo nếu bật chế độ TLS
-TLS_DOMAIN = "www.google.com"
+TLS_DOMAIN = "github.com"
 
 # Tag for advertising, obtainable from @MTProxybot
 # AD_TAG = "3c09c680b76ee91a4c25ad51f742267d"
